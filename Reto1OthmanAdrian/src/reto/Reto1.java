@@ -42,6 +42,11 @@ public class Reto1 {
 				a = Integer.parseInt(sc.nextLine());
 				System.out.println("Este número es par: --> " + Funciones1.esPar(a));
 				break;
+			case 6:
+				System.out.println("Dame un número: ");
+				a = Integer.parseInt(sc.nextLine());
+				System.out.println("Este número es impar: --> " + Funciones1.esImpar(a));
+				break;
 			default:
 				System.out.println("Opción no válida");
 				break;
