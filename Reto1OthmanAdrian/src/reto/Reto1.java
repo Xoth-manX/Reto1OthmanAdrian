@@ -35,7 +35,21 @@ public class Reto1 {
 				a = Integer.parseInt(sc.nextLine());
 				System.out.print("Dame el segundo número que quieras restar: ");
 				b = Integer.parseInt(sc.nextLine());
-				System.out.println("La suma es " + Funciones1.restar(a, b));
+				System.out.println("La resta es " + Funciones1.restar(a, b));
+				break;
+			case 3:
+				System.out.print("Dame el primer número que quieras multiplicar: ");
+				a = Integer.parseInt(sc.nextLine());
+				System.out.print("Dame el segundo número que quieras multiplicar: ");
+				b = Integer.parseInt(sc.nextLine());
+				System.out.println("La multiplicacion es " + Funciones2.multiplicar(a, b));
+				break;
+			case 4:
+				System.out.print("Dame el primer número que quieras dividir: ");
+				a = Integer.parseInt(sc.nextLine());
+				System.out.print("Dame el segundo número que quieras dividir: ");
+				b = Integer.parseInt(sc.nextLine());
+				System.out.println("La division es " + Funciones2.dividir(a, b));
 				break;
 			case 5:
 				System.out.println("Dame un número: ");
@@ -46,6 +60,16 @@ public class Reto1 {
 				System.out.println("Dame un número: ");
 				a = Integer.parseInt(sc.nextLine());
 				System.out.println("Este número es impar: --> " + Funciones1.esImpar(a));
+				break;
+			case 7:
+				System.out.println("Dame un número: ");
+				a = Integer.parseInt(sc.nextLine());
+				System.out.println("Este número es positivo: --> " + Funciones2.esPositivo(a));
+				break;
+			case 8:
+				System.out.println("Dame un número: ");
+				a = Integer.parseInt(sc.nextLine());
+				System.out.println("Este número es negativo: --> " + Funciones2.esNegativo(a));
 				break;
 			default:
 				System.out.println("Opción no válida");
